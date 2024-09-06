@@ -526,6 +526,7 @@ namespace TuneMorph
             Controls.Add(pan_movie);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "TuneMorph";
             panel2.ResumeLayout(false);
